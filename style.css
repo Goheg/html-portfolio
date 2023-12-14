@@ -1,0 +1,123 @@
+
+.heroes {
+	background-color: #0766AD;
+	background-image: linear-gradient(#29ADB2, #0766AD, #C5E898);
+	height: 100vh;
+	text-align: center;
+}
+
+.heroes > h1{
+	padding-top: 250px;
+	font-style: italic;
+	font-size: 100px;
+	font-family: cursive;
+	color:#032036;
+	margin-top: 0
+}
+
+.heroes p {
+	font-family:'Courier New', Courier, monospace;
+	font-size: 50px;
+	color: #032036;
+}
+
+.profile {
+	height: 250px;
+	border-radius: 50%;
+}
+
+section {
+	text-align: center;
+	padding: 100px 300p;
+	color: #032036;
+	font-size: 30px;
+}
+
+.designs {
+	height: 300px;
+	border-radius: 20px;
+} 
+
+ .btn {
+	font-size: 20px;
+	width: 150px;
+	height: 50px;
+	background-color: #0766AD;
+	border: 0;
+	color: white;
+	border-radius: 8px;
+	margin-bottom: 100px;
+}
+
+footer {
+	background-color: #0766AD;
+	background-image: linear-gradient(#29ADB2, #0766AD, #C5E898);
+	height: 200px;
+	text-align: center;
+}
+
+a {
+	padding-top: 100px;
+	display: inline-block;
+    text-decoration: none;
+	color: #032036;
+	font-size: 15px;
+	font-family:Montserrat, sans-serif;
+	margin-right: 30px;
+}
+
+a:hover {
+	color: white;
+}
+ .skills > h1 {
+	font-size: 70px;
+ }
+@media (max-width : 360px) and (max-width :680px) {
+	.heroes {
+		background-color: #0766AD;
+		background-image: linear-gradient(#29ADB2, #0766AD, #C5E898);
+		height: 50vh;
+		text-align: center;
+	}
+
+	.heroes > h1{
+		padding-top: 60px;
+		font-style: italic;
+		font-size: 50px;
+		font-family: cursive;
+		color:#032036;
+	}
+	
+	.heroes p {
+		font-family:'Courier New', Courier, monospace;
+		font-size: 20px;
+		color: #032036;
+	}
+	
+	section {
+		text-align: center;
+		padding: 100px 3p;
+		color: #032036;
+		font-size: 21px;
+	}
+
+	.designs {
+		height: 200px;
+		border-radius: 20px;
+	}
+
+	.btn {
+		font-size: 10px;
+		width: 100px;
+		height: 30px;
+		background-color: #0766AD;
+		border: 0;
+		color: white;
+		border-radius: 8px;
+		margin-bottom: 20px;
+	}
+
+	.skills > h1 {
+		font-size: 50px;
+	 }
+}
